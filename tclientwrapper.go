@@ -17,7 +17,7 @@ type TClientWrapper struct {
 func (cw *TClientWrapper) GetClient() interface{} {
 	if cw.objPool != nil {
 		for try := 1; try <= cw.maxTryTimes; try++ {
-			fmt.Printf("%s | borrow client from pool | [%d]\n", cw.tag, try)
+			fmt.Printf("%s | borrow client from pool | [try: %d] [active: %d] [Idle: %d]\n", cw.tag, try, cw.objPool.GetNumActive(), cw.objPool.GetNumIdle())
 			client, err := cw.objPool.BorrowObject()
 			if err != nil {
 				// co the sleep
