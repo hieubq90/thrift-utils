@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65486270-3ed8-4896-8698-06d8f7dad34a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tclientwrapper.go" afterPath="$PROJECT_DIR$/tclientwrapper.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tclientfactory.go" afterPath="$PROJECT_DIR$/tclientfactory.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,26 +15,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tclientfactory.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tclientfactory.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tclientfactory.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-              <folding>
-                <element signature="e#22#122#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="433">
+              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tclientwrapper.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tclientwrapper.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tclientwrapper.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="157" lean-forward="false" selection-start-line="19" selection-start-column="157" selection-end-line="19" selection-end-column="157" />
-              <folding>
-                <element signature="e#22#87#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="433">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tclientfactory.go" />
         <option value="$PROJECT_DIR$/tclientwrapper.go" />
+        <option value="$PROJECT_DIR$/tclientfactory.go" />
       </list>
     </option>
   </component>
@@ -578,12 +575,12 @@
       <updated>1494952425149</updated>
       <workItem from="1494952427005" duration="1410000" />
       <workItem from="1494953871382" duration="32000" />
-      <workItem from="1494953935313" duration="4510000" />
+      <workItem from="1494953935313" duration="5496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5952000" />
+    <option name="totallyTimeSpent" value="6938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="864" extended-state="6" />
@@ -634,9 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#122#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,9 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#122#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -658,23 +651,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tclientfactory.go">
+    <entry file="file://$PROJECT_DIR$/tclientwrapper.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-          <folding>
-            <element signature="e#22#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="433">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tclientwrapper.go">
+    <entry file="file://$PROJECT_DIR$/tclientfactory.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="157" lean-forward="false" selection-start-line="19" selection-start-column="157" selection-end-line="19" selection-end-column="157" />
-          <folding>
-            <element signature="e#22#87#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="433">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

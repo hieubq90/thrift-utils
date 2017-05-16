@@ -27,25 +27,29 @@ type TClientFactory struct {
 
 func NewTClientFactory(tag, endpoint string, fn MakeObjectFunction, pType TProtocolType) *TClientFactory {
 	if pType == BINARY_PROTOCOL {
+		fmt.Printf("[%s] | create new TClientFactofy with binary protocol", tag)
 		return &TClientFactory{
 			tag:              tag,
 			endpoint:         endpoint,
 			protocolFactory:  thrift.NewTBinaryProtocolFactory(true, true),
 			transportFactory: thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory()),
+			makeObjectFunc:   fn,
 		}
 	} else {
+		fmt.Printf("[%s] | create new TClientFactofy with compact protocol", tag)
 		return &TClientFactory{
 			tag:              tag,
 			endpoint:         endpoint,
 			protocolFactory:  thrift.NewTCompactProtocolFactory(),
 			transportFactory: thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory()),
+			makeObjectFunc:   fn,
 		}
 	}
 }
 
 // MakeObject function use to create new thrift client when needed
 func (f *TClientFactory) MakeObject() (*pool.PooledObject, error) {
-
+	fmt.Printf("[%s] | making new client for pool", f.tag)
 	var transport thrift.TTransport
 	var err error
 
